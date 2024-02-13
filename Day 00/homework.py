@@ -1,4 +1,4 @@
-from turtle import *
+yyfrom turtle import *
 
 
 
