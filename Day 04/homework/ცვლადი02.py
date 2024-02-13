@@ -1,2 +1,3 @@
-age = 23
-print(age + 43)
+a=32
+b=21
+print(a+b)

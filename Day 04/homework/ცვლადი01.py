@@ -1,2 +1,6 @@
-age = 49
-print(age - 20)
+
+x=43
+
+y=21
+print(x+y)
+
