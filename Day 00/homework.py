@@ -1,8 +1,8 @@
-yyfrom turtle import *
+from turtle import *
 
 
 
-speed(30 )
+speed(30)
 width(7)
 color("purple")
 forward(200)
