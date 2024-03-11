@@ -1,60 +1,59 @@
-#დავალება 1
-# 1-დან 50-ის ჩათვლის 5-ის ჯერადები
+#დაველება 1
 for i in range(6, 56, 5):
     print(i-1)
 
-#დავალება 2
-# 2-დან 20-ის ლუწი რიცხვები
+#დაველება 2
 for i in range(2, 21, 2):
     print(i)
 
-#დავალება 3
-# 5-იდან ათის ჩათვლით რიცხვების ნამრავლი
-    
+#დაველება 3
+sum=1
 for i in range(5, 11):
-    pasuxi = i * i
-    print(f"{i} * {i} = {pasuxi}")
+    sum *=i
+print(f"sum of numbers from 5 to 10 is {sum}")
 
-# #დავალება 4
-print(input("enter number"))
-def fact( n):
-  if n>1:
-    return n*fact(n-1)
-  else:
-    return 1.
-n=int(input('enter the number'))
-print("Factorial of ",n,"is - ", fact(n))
+#დაველება 4
+user_input=int(input("enter number: "))
+factorial=1
+for i in range (1,user_input+1):
+    factorial*=i
+print (f"factorial for {user_input} is {factorial} or {user_input}! is {factorial}")
 
-
- #დავალება 5
+#დაველება 5
+user_input = int(input("Enter whole number: "))
+if user_input % 2 == 0:
+    user_input /= 2
+    print(int(user_input))
+else:
+    new_num = user_input * 3 + 1
+    print(new_num)
     
+#დაველება 6
+num=10
+while num>=1:
+    print(num)
+    num-=1
+
+#დაველება7
+name=(input("Please enter your name: "))
+while name!="quit":
+    name=(input("Please enter your name: "))
+
+#დაველება 8
+num=10
+while  num<20:
+    print(num)
+    num+=2
+
+#დაველება 9
+num =int(input("Please enter number: "))
+while num<=0:
+    num =int(input("Please enter number: "))
+
+#დაველება 10
+num=1
+while num<=10:
+    new_num=num**2
+    print(new_num)
+    num+=1
     
-
-    
-#დავალება 6
-#დაიწყეთ 10-დან და დაითვალეთ 1-მდე, დაბეჭდეთ თითოეული რიცხვი.
-
-for i in range(10, 1, -1):
-     print(i)
-
-#დავალება 7
-name=str(input("Please enter your name: "))
-if name =="quit":
-   print("you are in")
-elif name!="quit":
-   print("its incorrect")
-
-#დავალება 8
-for i in range(10,21,2):
-   print(i)
-
-#დავალება 9
-num =int(input("Please enter positive number: "))
-if num >0:
-   print("you have written positive number.")
-elif num <0:
-    (print("you have written negative number."))
-
-#დავალება 10
-for i in range(1, 11):
-    print(i*i)
