@@ -1,3 +1,5 @@
+# not mine datosi
+
 import random
 
 def generate_random_number():
