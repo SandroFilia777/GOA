@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="header-left">
+      <img class="logo" src="photos/image-removebg-preview (2).png" alt="logo">
+  </div>
+  <div class="header-middle">
+      <a class="text2" id="homeLink" href="index.html">Home</a>
+      <a class="text" id="mainLink" href="main.html">Best Sellers</a>
+      <a class="text" id="aboutUsLink" href="aboutus.html">About Us</a>
+  </div>
+  <div class="header-right">
+      <input id="search" type="text" placeholder="Search" autocomplete="off" />
+  </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script>
+    function myFunction() { 
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    var x = document.getElementById("myLinks");
+    var homeLink = document.getElementById('homeLink')
+    var mainLink = document.getElementById('mainLink');
+    var aboutUsLink = document.getElementById('aboutUsLink');
+    homeLink.addEventListener('mouseover', () => homeLink.style.color = 'red')
+    homeLink.addEventListener('mouseout', () => homeLink.style.color = 'blue');
+
+    mainLink.addEventListener('mouseover', () => mainLink.style.color = 'red');
+    mainLink.addEventListener('mouseout', () => mainLink.style.color = 'white');
+
+    aboutUsLink.addEventListener('mouseover', () => aboutUsLink.style.color = 'red');
+    aboutUsLink.addEventListener('mouseout', () => aboutUsLink.style.color = 'white');
+
+
+</script>
+</body>
+</html>
