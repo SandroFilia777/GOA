@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center; 
+}
+h3{
+    text-align: center; 
+}
+h4{
+    text-align: center; 
+}
+h5{
+    text-align: center; 
+}
+h6{
+    text-align: center; 
+}
+p{
+padding: 10px;
+color: red;
+}
+
+img{
+    width: 400px;
+    margin-left: 100px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}

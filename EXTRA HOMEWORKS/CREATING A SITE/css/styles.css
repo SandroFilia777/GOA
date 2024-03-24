@@ -5,10 +5,10 @@
 
 header {
   width: 100%;
-  height: 100px;
+  height: 140px;
   background-color: grey;
   display: inline-flex;
- 
+
 }
 
 .logo img {
@@ -20,10 +20,17 @@ header {
 .header-middle {
   width: 30%;
   height: 200px;
-  justify-content: center;  
+  justify-content: center;
   margin-top: 50px;
-  padding-left: 180px;
+  margin-left: 200px;
 
+}
+
+
+.userlogo {
+  margin-left: 5px;
+  width: 35px;
+  height: 35px;
 }
 
 .text2 {
@@ -60,7 +67,6 @@ header {
   padding: 4px 10px;
   border: none;
   background: transparent;
-  margin-bottom: 0;
   outline: none;
   opacity: 0.7;
   color: black;
@@ -69,4 +75,230 @@ header {
 #search:focus {
   width: 300px;
   opacity: 1.0;
+}
+
+
+.laptop {
+  display: block;
+}
+
+.laptopIMG {
+  width: 100%;
+
+}
+
+.textDiv h1 {
+  position: absolute;
+  width: 800px;
+  color: grey;
+  font-size: 70px;
+  margin-top: -410px;
+  margin-left: 40px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+
+.img1 {
+  margin-top: 20vh;
+  margin-left: 9%;
+  width: 50%;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan-div {
+  width: 100vh;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: 250px;
+
+}
+
+.slogan {
+  font-size: 60px;
+  font-weight: bold;
+  color: purple;
+}
+
+.slogan2-div {
+
+  width: 100vh;
+  height: 70px;
+
+}
+
+.slogan2 {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 70px;
+  font-weight: bold;
+  color: black(27, 113, 63);
+}
+
+
+
+.img2 {
+  margin-left: 100px;
+  width: 40%;
+  height: 60vh;
+
+}
+
+.qqq {
+  width: 100%;
+  font-size: 35px;
+
+}
+
+.qqq h2 {
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  height: 120vh;
+  
+}
+
+.mtavari{
+  display: flex;
+}
+.eee{
+  background-color: red;
+  width: 420px;
+  height: 800px;
+}
+.eee img {
+  width: 100px;
+  margin-left: 190px;
+  margin-top: 100px;
+}
+.eee p{
+  margin-left: 80px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.www {
+  width: 30%;
+  height: 600px;
+  display: flex;
+  background-color:brown ;
+}
+
+.www img {
+  width: 100%;
+  height: 600px;
+
+}
+
+section {
+  width: 100%;
+  height: 70vh;
+
+}
+
+.Sellers {
+  text-align: center;
+  font-size: 45px;
+
+}
+
+.boxes {
+  margin-left: 150px;
+  margin-top: 40px;
+  display: inline-flex;
+}
+
+.box {
+  margin-left: 30px;
+  width: 300px;
+  height: 500px;
+  border: 5px solid gray;
+}
+
+.box h1 {
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.box h2 {
+  font-size: 25px;
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+}
+
+.box img {
+
+  width: 290px;
+
+}
+
+.box button {
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.button2 {
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  margin-top: 33px;
+}
+
+footer {
+  margin-top: 170px;
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  color: white;
+
+}
+
+
+.footerLeft {
+  background-color: black;
+  width: 40%;
+  height: 300px;
+  border-right: 5px solid white;
+}
+
+footer h2 {
+  text-align: center;
+  margin-left: 30px;
+  font-size: 60px;
+  color: wheat;
+}
+
+footer p {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.Click {
+  margin-left: 100px;
+  width: 700px;
+}
+
+
+footer a {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
 }
