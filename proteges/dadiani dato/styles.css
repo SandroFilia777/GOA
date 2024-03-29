@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: inline-flex;
+}
+
+header h1{
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.logo{
+    margin-left: 800px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+main{
+    display: inline-flex;
+    width: 100%;
+    height: 70vh;
+    background-color: greenyellow;
+}
+.qwe {
+    width: 700px;
+    height: 100px;
+}
+
+.qwe p{
+    font-size: 22px;
+    padding-top: 70px;
+    margin-left:70px;
+}
+.goa img{
+    margin-top: 65px;
+    margin-left: 60px;
+    width: 400px;
+}

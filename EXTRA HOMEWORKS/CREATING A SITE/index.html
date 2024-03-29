@@ -15,9 +15,9 @@
         </div>
         <div class="header-middle">
             <a class="text2" id="homeLink" href="index.html">Home</a>
-            <a class="text" id="bestsellersLink" href="bestsellers.html">Best Sellers</a>
+            <a class="text" id="bestsellersLink" href="#bestsellers123">Best Sellers</a>
             <a class="text" id="aboutUsLink" href="aboutus.html">About Us</a>
-            <a href=""><img class="userlogo" src="photos/user.png" alt="login"></a>
+            <a href="login.html"><img class="userlogo" src="photos/user.png" alt="login"></a>
         </div>
         <div class="header-right">
             <input id="search" type="text" placeholder="Search" autocomplete="off" />
@@ -55,19 +55,33 @@
         <div class="qqq">
             <h2>Our Best Product</h2>
         </div>
-        <div class="mtavari">
-            <div class="eee">
-                <img src="photos/image copy 2.png" alt="">
-                <p>A17 Pro chip.
-                    A monster win for gaming.</p>
-            </div>
-            <div class="eee">
-                <img src="photos/image copy 3.png" alt="">
-                <p>iPhone.
-                    Forged in titanium.</p>
+        <div class="qqqqq">
+            <div class="mtavari">
+                <div class="eee">
+                    <img src="photos/image copy 2.png" alt="">
+                    <p>A17 Pro chip.
+                        A monster win for gaming.</p>
+                </div>
+                <div class="eee">
+                    <img src="photos/image copy 3.png" alt="">
+                    <p>iPhone.
+                        Forged in titanium.</p>
+                </div>
+
             </div>
             <div class="www">
                 <img src="photos/image copy.png" alt="">
+            </div>
+            <div class="mtavari">
+                <div class="eee2">
+                    <img src="photos/image copy 4.png" alt="">
+                    <p>USB Type-C.</p>
+                </div>
+                <div class="eee2">
+                    <img src="photos/image copy 5.png" alt="">
+                    <p>A camera that captures your wildest imagination.</p>
+                </div>
+
             </div>
         </div>
 
@@ -76,7 +90,7 @@
 
     <hr>
     <hr>
-    <section>
+    <section id="bestsellers123">
         <div class="Sellers">
             <h1>Sandro Shop best Sellers</h1>
         </div>
@@ -150,11 +164,35 @@
             </h2>
             <p> If you want to buy our stuff!</p>
             <div class="Click">
-                <button><a href="">Click here to Sign up.</a></button>
+                <button><a href="login.html">Click here to Sign up.</a></button>
             </div>
 
         </div>
+        <div class="footerRight">
+            <div class="first">
+                <h3>Shop</h3>
+                <div class="aaaa">
+                    <a href="#bestsellers123">Best Sellers</a>
+                    <p class="wqwqw"><a href="">Personal Computers</a></p>
+                </div>
+            </div>
+            <div class="first">
+                <h3>Follow</h3>
+                <div class="aaaa">
+                    <a href="https://www.facebook.com/SandroFilia27">Facebook</a>
+                    <p class="wqwqw1"><a href="https://www.instagram.com/sandrofilia777/">Instagram</a></p>
+                </div>
 
+            </div>
+            <div class="second">
+                <h3>Help </h3>
+                <div class="aaaa">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Contact</a>
+                </div>
+
+            </div>
+
+        </div>
 
 
     </footer>
@@ -175,7 +213,7 @@
         }
         var x = document.getElementById("myLinks");
         var homeLink = document.getElementById('homeLink')
-        var bestsellersLink = document.getElementById('mainLink');
+        var bestsellersLink = document.getElementById('bestsellersLink');
         var aboutUsLink = document.getElementById('aboutUsLink');
         homeLink.addEventListener('mouseover', () => homeLink.style.color = 'red')
         homeLink.addEventListener('mouseout', () => homeLink.style.color = 'blue');
