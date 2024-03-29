@@ -27,3 +27,7 @@ print(name[5])
 
 list4=[input("please enter your name;"), input("please enter your surname;"),int(input("please enter your age;")),input("please enter your mail;"),input("please enter your address;")]
 print(list4[0], list4[1], list4[2], list4[3], list4[4] )
+
+surname = "filia"
+for i in range(len(surname)):
+    print(surname[i])
