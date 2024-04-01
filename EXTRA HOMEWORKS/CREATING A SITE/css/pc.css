@@ -83,14 +83,10 @@ header {
 }
 
 
-
-
 main{
     width: 100%;
     height: 100vh;
 }
-
-
 
 
 
@@ -154,7 +150,7 @@ footer a {
 .first {
     width: 300px;
     height: 300px;
-    border-right: 5px solid white;
+    border-right: 5px solid white
 }
 
 .second {
@@ -190,11 +186,11 @@ footer a {
     background-color: black;
     font-size: 27px;
 }
-    
-    .wqwqw {
-        margin-left: -60px;
-    }
 
-    .wqwqw1 {
-        margin-left: -160px;
-    }
+.wqwqw {
+    margin-left: -60px;
+}
+
+.wqwqw1 {
+    margin-left: -160px;
+}

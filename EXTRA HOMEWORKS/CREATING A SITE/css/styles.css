@@ -320,15 +320,36 @@ section {
   margin-bottom: 30px;
 }
 
+.idk {
+  margin-left: 160px;
+  margin-top: 280px;
+  width: 400px;
+  height: 500px;
+
+}
 
 .qooqo {
-  margin-top: 300px;
-  margin-left: 150px;
   width: 360px;
   height: 100px;
   background-color: grey;
 }
 
+
+.aaalll{
+  margin-top: 200px;
+  width: 300px;
+  height: 100px;
+
+}
+
+.aaalll button{
+  width: 300px;
+  font-size:40px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
 footer {
   display: inline-flex;
   margin-top: 170px;
