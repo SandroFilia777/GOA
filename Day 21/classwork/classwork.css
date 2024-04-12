@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: midnightblue;
+}
+
+
+main{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+
+.info{
+    margin-left: 100px;
+    margin-top: 300px;
+}
+li{
+    font-size: 35px;
+    color: white;
+}
+
+button{
+    margin-top: 40px;
+    margin-left: 90px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: grey;
+    color: red;
+}
+
+img{
+    border-radius: 35px;
+    margin-top: 190px;
+    margin-left: 600px;
+}
