@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:red;
+}
+
+main{
+    display: flex;
+}
+
+.qqq{
+    margin-top: 90px;
+    margin-left: 300px;
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+p{
+   
+    font-size: 27px;
+    color: white;
+}
+
+img{
+    margin-left: 100px;
+    width: 400px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display:  flex;
+}
+
+
+li{
+    margin-top: 100px;
+    font-size: 35px ;
+}
+.ni{
+    margin-left: 100px;
+
+    width: 400px;
+    height: 500px;
+}
+
