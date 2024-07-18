@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(50% 70% at 50% 30%, #FFFFFF 10%, #F5F5F5 100%) background-color:;
+}
+
+.messi {
+    margin-top: ;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    width: 7rem;
+    border-radius: 100%;
+
+}
+
+.Henry {
+    text-align: center;
+}
+
+.mother {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.henry1 {
+    text-align: center;
+    width: 450px;
+    color: #7D7D7D;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.025rem;
+
+    line-height: 1.875;
+    font-weight: 300;
+}
+
+.qqaaaa {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gravida {
+    margin-bottom: 50px;
+    display: flex;
+    width: 700px;
+    height: 200px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 25px;
+
+}
+.step{
+    width: 100%;
+    display: flex;
+}
+.gravida img {
+
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 106px;
+    height: 106px;
+    border-radius: 100%;
+}
+
+.gra {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 100%;
+
+}
+
+.gr {
+    padding-right: 70px;
+    margin-left: -300px;
+    margin-top: 100px;
+    width: 100%;
+    color: #7D7D7D;
+}
