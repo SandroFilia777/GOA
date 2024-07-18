@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 1200px;
+    margin-left: 280px;
+}
+.divv{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    transition: transform 0.5s ease; /*-*/
+    
+}
+.divv:hover{
+    transform: scale(1.06); /*-*/
+}
+.text1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+}
+.divv:hover .text1{
+    opacity: 1;
+    }
+
+.text{
+    text-align: center;
+    color: white;
+}
