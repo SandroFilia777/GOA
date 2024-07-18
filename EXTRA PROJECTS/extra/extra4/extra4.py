@@ -1,4 +1,4 @@
-# not mine datosi
+
 
 import random
 
