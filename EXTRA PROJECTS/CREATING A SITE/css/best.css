@@ -38,10 +38,12 @@ header {
   font-size: 30px;
   gap: 20px;
   color: blue;
+
   margin-right: 40px;
 }
 
 .text {
+  
   text-decoration: none;
   font-size: 30px;
   gap: 20px;
