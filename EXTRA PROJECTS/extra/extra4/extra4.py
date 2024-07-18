@@ -21,6 +21,7 @@ def main():
     for attempt in range(num_attempts):
         guess = int(input(f"Attempt {attempt + 1}/{num_attempts}: Enter your guess: "))
 
+
         if guess < number_to_guess:
             print("Too low!")
         elif guess > number_to_guess:
